@@ -28,5 +28,5 @@ return array(
     'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/src'),
     'Doctrine\\Common\\Collections\\' => array($vendorDir . '/doctrine/collections/src'),
     'Doctrine\\Common\\' => array($vendorDir . '/doctrine/event-manager/src'),
-    'Alura\\Doctrine\\' => array($baseDir . '/src/Helper'),
+    'Alura\\Doctrine\\' => array($baseDir . '/src'),
 );

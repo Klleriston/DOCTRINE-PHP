@@ -143,7 +143,7 @@ class ComposerStaticInit6f85502b52ffab0d6a85b356c58b065f
         ),
         'Alura\\Doctrine\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/Helper',
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

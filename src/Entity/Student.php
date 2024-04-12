@@ -13,7 +13,7 @@ class Student
     #[Id]
     #[GeneratedValue]
     #[Column]
-    public readonly int $id;
+    public int $id;
     #[Column]
     public readonly string $name;
 

@@ -5,9 +5,8 @@ use Alura\Doctrine\EntityManagerFactory;
 require_once __DIR__ . '/../vendor/autoload.php';
 
 $entityManager = EntityManagerFactory::createEntityManager();
-$studentRepository = $entityManager->getRepository(Student::class);
+$student = $entityManager->find(Student::class, $argv[1]);
 
-$student = $studentRepository->find($argv[1]);
 $entityManager->remove($student);
 $entityManager->flush();
 

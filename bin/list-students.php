@@ -12,4 +12,11 @@ $studentList = $studentRepository->findAll();
 foreach ($studentList as $student )
 {
     echo "ID: $student->id\nNome: $student->name\n\n";
+    echo "Telefone: \n";
+    foreach ($student->phones() as $phone)
+    {
+        echo $phone->number . PHP_EOL;
+    }
+
+    echo PHP_EOL . PHP_EOL;
 }
